@@ -1,0 +1,21 @@
+.img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.img1 {
+  background-image: url(img/box1.jpg);
+}
+
+.img2 {
+  background-image: url(img/box2.jpg);
+}
+
+.img3 {
+  background-image: url(img/box3.jpg);
+}
+
+.img4 {
+  background-image: url(img/box4.jpg);
+}
