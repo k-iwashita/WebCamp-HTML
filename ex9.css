@@ -6,12 +6,12 @@
 }
 
 main {
-  margin-top: 50px;
+  margin: 50px auto;
+  width: 960px;
 }
 
 .main-contents {
-  margin: 50px auto;
-  width: 960px;
+  width: 100%;
 }
 
 .content {
@@ -38,7 +38,7 @@ main {
 
 .img {
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .img1 {
@@ -58,4 +58,28 @@ main {
 
 .title{
   margin: 15px 0 5px;
+}
+
+@media screen and (max-width:768px) {
+  main {
+    width: 100%;
+  }
+
+  .main-contents {
+    width: 100%;
+  }
+
+  .content {
+    width: 90%;
+    margin: 20px auto 0;
+    float: none;
+  }
+
+  .content:first-child {
+    margin-top: 0;
+  }
+
+  .content:last-child {
+    margin-right: auto;
+  }
 }
